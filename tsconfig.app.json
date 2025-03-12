@@ -20,7 +20,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@features/*": ["src/features/*"],
+      "@components/*": ["src/shared/components/*"],
+      "@icons/*": ["src/shared/icons/*"]
+    },
   },
   "include": ["src"]
 }
